@@ -2,8 +2,12 @@
 
 static bool	init_thread(t_rules *rules)
 {
+	u_int16_t	i;
 
-
+	i = 0;
+	while (i < rules->philo_args->n_philo)
+	{
+		pthread
 	return (true);
 }
 
